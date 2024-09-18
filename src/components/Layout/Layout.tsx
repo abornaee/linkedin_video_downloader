@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Script from "next/script";
 import Header from "../Header";
 import MobileMenu from "../MobileMenu";
-import Footer from "../Footer/Footer";
+//import Footer from "../Footer/Footer";
 import type { Downloader } from "@/types";
 
 interface LayoutProps {
