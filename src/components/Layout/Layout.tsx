@@ -21,13 +21,7 @@ const Layout = ({ children, downloaders }: LayoutProps) => {
       {downloaders && (
         <MobileMenu downloaders={downloaders} isMenuVisible={isMenuOpen} onToggleMenu={handleToggleMenu} />
       )}
-      {downloaders && (
-        <Header
-          onMenuClick={handleToggleMenu}
-          isOpen={isMenuOpen}
-          downloaders={downloaders}
-        />
-      )}
+      
       <main>{children}</main>
       
       {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS && (
