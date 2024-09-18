@@ -38,8 +38,8 @@ img, canvas, audio, video, svg, iframe {
   border-style: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
