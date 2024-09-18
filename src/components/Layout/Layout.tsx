@@ -32,8 +32,5 @@ const Layout = ({ children, downloaders }: LayoutProps) => {
        
         </>
       )}
-    </>
-  );
-};
 
 export default Layout;
