@@ -43,12 +43,7 @@ const downloaderName = capitalizeWord(downloader.name);
       </Head>
       <section className={styles.hero}>
         <Container>
-        <h2 className={styles["hero-title"]}>
-            Download Videos From <br /> {downloaderName}
-          </h2>
-          <p className={styles["hero-description"]}>
-            Choose any supported video format of your choice.{" "}
-          </p>
+        
           <div className={styles['hero-input']}>
               <VideoSearch placeholder={`Enter a valid ${downloader.name} url`} onSubmit={handleRequest} />
           </div>
